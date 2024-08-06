@@ -26,5 +26,12 @@ public class home {
         return "yes this is working fine but this is test page";
     }
     
+    @RequestMapping("/home")
+    public String home() {
+
+
+
+        return "yes this is home";
+    }
 
 }
