@@ -27,7 +27,7 @@ public class home {
     }
     
     @RequestMapping("/home")
-    public String home() {
+    public String homes() {
 
 
 
